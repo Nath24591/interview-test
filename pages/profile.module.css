@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  margin: 100px auto;
+  max-width: 300px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  margin-top: 20px;
+}
+
+.logoutButton {
+  background-color: #ff6347; /* Coral color */
+  color: #ffffff; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  font-size: 16px; /* Font size */
+  border: none; /* No border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  margin-top: 20px; /* Add some space from the profile section */
+}
+
+.logoutButton:hover {
+  background-color: #ff4c36; /* Darker coral color on hover */
+}
+
+.error {
+  color: #ff0000; /* Red color for error text */
+  font-size: 14px; /* Font size for error message */
+  margin-top: 10px; /* Add some space above the error message */
+}
+
+.profileImage {
+  /* Add your styles for the profile image here */
+  max-width: 100%;
+  border-radius: 50%;
+}
